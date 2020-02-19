@@ -1,5 +1,15 @@
 # React | Components & Props
 
+## Learning Goals
+
+- Know how the Component tree works
+- How the DOM is rendered in the browser
+- What props are in React components
+- Syntax for passing props to a component
+
+
+
+
 
 <br>
 
@@ -28,6 +38,23 @@ code .
 ```bash
 npm i
 ```
+
+
+
+
+
+<br>
+
+
+
+### (Teacher) Create a new branch
+
+```bash
+git checkout -b wd-ft-mmm-yyyy
+```
+
+
+
 
 
 <br>
@@ -61,6 +88,8 @@ React app structure can be represented as a **component tree** - having one root
 React lets us define components as **classes** or **functions**.
 
 
+
+<br>
 
 
 
@@ -192,6 +221,10 @@ touch src/User.js
 
 
 
+<br>
+
+
+
 ##### `src/User.js`
 
 ```jsx
@@ -287,6 +320,10 @@ class App extends Component {
 
 
 
+<br>
+
+
+
 - In order to pass some data to a component, we need to set that value as the HTML attribute.
 
 - This attributes on the components, are in React lingo called **props**.
@@ -302,6 +339,8 @@ class App extends Component {
 ### Passing Data to a function component
 
 
+
+<br>
 
 
 
@@ -427,6 +466,8 @@ export default WelcomeComponent;
 
 
 
+<br>
+
 
 
 ## When do you use props?
@@ -465,17 +506,21 @@ Props usually control how a component is displayed so passing in **different pro
 
 
 
-### [When do you use props - Visual examples](<http://materials.ironhack.com/s/Bk4BY-xrE#when-do-you-use-props>)
+![When do you use props](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_53610b5ab842828224a29e2fb18fe4dc.png)
 
 
 
 <br>
 
+
+
 ### (2) Share data between components
+
+
 
 By definition, props let you **share data** between a parent component and a child component. 
 
-This way we can do so called "**prop drilling**" if needed.
+This way we can do the so called "**prop drilling**" if needed.
 
 ![img](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_ca57ec2aeceab7798d6c5d0013d58061.png)
 
@@ -483,11 +528,13 @@ This way we can do so called "**prop drilling**" if needed.
 
 
 
+<br>
 
 
-### (3) Components from npm
 
-There are many pre-made components on npm. Let’s use one as the example!
+### (3) Using Components from `npm`
+
+There are many pre-made components on npm.  Let’s use one as the example!
 
 
 
@@ -545,13 +592,13 @@ import ReactPlayer from "react-player";  // import the npm package/Component
 
 
 
-## IMPORTANT !
+## Important
 
 #### In the above example we are reusing the component `<ReactPlayer>` multiple times by passing it different props in each example.
 
 
 
-
+<br>
 
 
 
