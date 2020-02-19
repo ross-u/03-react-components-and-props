@@ -602,4 +602,4 @@ import ReactPlayer from "react-player";  // import the npm package/Component
 
 
 
-## [React.Component docs](
+### [React.Component docs](<https://reactjs.org/docs/react-component.html>)
